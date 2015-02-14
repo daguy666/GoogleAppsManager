@@ -1,7 +1,11 @@
 #!/bin/bash
-#GAMM3.X Current Stable Release
-#logging to gamlog file in the cwd
-######################################
+# For Google Apps Manager Version 3.42
+# This will log to the current directory 
+# to gamlog
+# Find more here. 
+# https://github.com/daguy666/GoogleAppsManager
+#==============================================
+
 GAM_USER=$1
 
 if [ -z $GAM_USER ];
